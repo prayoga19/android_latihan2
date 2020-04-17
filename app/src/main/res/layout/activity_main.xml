@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/lightblue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="148dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="125dp"
+        android:gravity="center"
+        android:background="@drawable/ic_welcome_logo"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/username"
+        android:textColor="@color/background"
+        android:backgroundTint="@color/background"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/password"
+        android:textColor="@color/background"
+        android:backgroundTint="@color/background"/>
+
+    <Button
+        android:background="@drawable/bg_lightblue"
+        android:id="@+id/loginbtn"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/password"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:text="@string/login"
+        android:textColor="@color/background"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginbtn"
+        android:layout_marginTop="20dp"
+        android:text="@string/OR"
+        android:textSize="20sp"
+        android:textColor="@color/background"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/loginfacebook"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/or"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/bg_lightblue"
+        android:drawableStart="@drawable/ic_welcome_fb_login"
+        android:drawableLeft="@drawable/ic_welcome_fb_login"
+        android:padding="20dp"
+        android:text="@string/connect"
+        android:textColor="@color/background"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/registertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginfacebook"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:text="Doen't have account ?"
+        android:textColor="@color/background"
+        />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/registertext"
+        android:text="@string/register"
+        android:textColor="@color/background"
+        android:layout_below="@id/loginfacebook"
+        android:layout_toRightOf="@id/registertext"
+        android:onClick="Register"
+        android:clickable="true"
+        android:focusable="true"/>
+
+
+</RelativeLayout>
+
+
+
+

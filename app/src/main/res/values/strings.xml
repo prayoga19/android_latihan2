@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">latihan 2</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="OR">OR</string>
+    <string name="connect">CONNECT WITH FACEBOOK</string>
+    <string name="register"><b>Register</b></string>
+    <string name="Email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="retypepassword">Retype Password</string>
+    <string name="homeaddress">Home Address</string>
+    <string name="defaultlocation">Default Location</string>
+    <string name="male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Organization">Organization</string>
+    <string name="personal">Personal</string>
+    <string name="agree">Agree with Trems and Conditions</string>
+    <string name="judulverify">Almost There</string>
+    <string name="judulverify1">Verify your Account</string>
+    <string name="verify">VERIFY</string>
+    <string name="send">SEND</string>
+    <string name="Resend"><b>Resend</b></string>
+    <string name="nama">Prayoga Maulana PS</string>
+    <string name="goldarah">Blood Type : B</string>
+    //userhome
+    <string name="searchdonor"><b>Search Donor</b></string>
+    <string name="bloodneed"><b>Blood Needed</b></string>
+    <string name="pesan"><b>Message</b></string>
+    <string name="donorhistory"><b>Donor History</b></string>
+    <string name="searchdonor1">Search donor near you</string>
+    <string name="bloodneed1">4 user need blood</string>
+    <string name="pesan1">5 New Messages</string>
+    <string name="donorhistory1">5 gives, 2 received</string>
+    <string name="verifycode">enter verification code here..</string>
+    <string name="paragraf1"> We have send verification code to your email</string>
+    <string name="paragraf"><p>Thanks you for registering with us. one more step you need to check your email to active your account</p></string>
+    <string-array name="BloodType">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+
+    <string-array name="Reshus">
+        <item>Reshus</item>
+    </string-array>
+
+    <string-array name="job">
+        <item>Job</item>
+    </string-array>
+</resources>

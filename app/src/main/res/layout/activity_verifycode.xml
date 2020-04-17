@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    tools:context=".verifycode">
+
+    <TextView
+        android:id="@+id/text1verifycode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="@string/judulverify1"
+        android:textColor="@color/background"
+        android:textSize="37sp"
+        />
+    
+    <TextView
+        android:id="@+id/text2verifycode"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1verifycode"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center"
+        android:text="@string/paragraf1"
+        android:textSize="15sp"
+        android:textColor="@color/background"/>
+    
+    <EditText
+        android:id="@+id/verify_code"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1verifycode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="@string/verifycode"
+        android:gravity="center"
+        android:textColor="@color/background"
+        android:backgroundTint="@color/background"/>
+
+    <Button
+        android:background="@drawable/bg_lightblue"
+        android:id="@+id/send_code"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/verify_code"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:text="@string/send"
+        android:textColor="@color/background"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/no_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/send_code"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginStart="110dp"
+        android:text="Doen't get the code ?"
+        android:textColor="@color/background"/>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/no_code"
+        android:text="@string/Resend"
+        android:textColor="@color/background"
+        android:layout_below="@id/send_code"
+        android:layout_toRightOf="@id/no_code"
+        android:clickable="true"
+        android:focusable="true"/>
+</RelativeLayout>
